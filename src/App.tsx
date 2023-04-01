@@ -33,7 +33,7 @@ function App() {
     <button className="icon-container" onClick={handleClick}>
     <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
       <div className="icon">
-        <a href="https://api.whatsapp.com/message/2WYOQ3NUJ7NVP1?autoload=1&app_absent=0" className="whatsapp-link">
+        <a className="whatsapp-link">
           <h2>WhatsApp</h2>
         </a>
       </div>
@@ -41,7 +41,7 @@ function App() {
     <button className="icon-container" onClick={handleClick}>
     <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
       <div className="icon">
-        <a href="https://api.whatsapp.com/message/2WYOQ3NUJ7NVP1?autoload=1&app_absent=0" className="whatsapp-link">
+        <a className="whatsapp-link">
           <h2>Instagram</h2>
         </a>
       </div>
@@ -49,7 +49,7 @@ function App() {
     <button className="icon-container" onClick={handleClick}>
     <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
       <div className="icon">
-        <a href="https://api.whatsapp.com/message/2WYOQ3NUJ7NVP1?autoload=1&app_absent=0" className="whatsapp-link">
+        <a className="whatsapp-link">
           <h2>Facebook</h2>
         </a>
       </div>
