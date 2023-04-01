@@ -4,9 +4,13 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { icon } from '@fortawesome/fontawesome-svg-core';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+
 
 const whatsappIcon = icon(faWhatsapp);
-
+const insta = icon(faInstagram)
+const face = icon(faFacebook)
 
 
 
@@ -39,15 +43,15 @@ function App() {
       </div>
     </button>
     <button className="icon-container" onClick={handleClick}>
-    <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
-      <div className="icon">
+    <FontAwesomeIcon icon={insta} className='insta-icon' />
+          <div className="icon">
         <a className="whatsapp-link">
           <h2>Instagram</h2>
         </a>
       </div>
     </button>
     <button className="icon-container" onClick={handleClick}>
-    <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
+    <FontAwesomeIcon icon={face}  className='face-icon'/>
       <div className="icon">
         <a className="whatsapp-link">
           <h2>Facebook</h2>

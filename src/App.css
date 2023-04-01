@@ -58,6 +58,20 @@
   cursor: pointer;
 }
 
+.insta-icon {
+  font-size: 2em;
+  cursor: pointer;
+  color: #d6249f;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.face-icon {
+  color: rgb(12, 23, 178);
+  font-size: 2em;
+  cursor: pointer;
+}
+
 .icon-container {
   cursor: pointer;
   border-radius: 10px;
