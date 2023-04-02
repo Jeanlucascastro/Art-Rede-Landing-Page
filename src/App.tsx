@@ -62,7 +62,7 @@ function App() {
           <button className="icon-container-body" onClick={handleClickWhats}>
               <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
               <div className="icon">
-                <a  className="whatsapp-link">
+                <a href="#" className="whatsapp-link">
                   <h2>WhatsApp</h2>
                 </a>
               </div>
