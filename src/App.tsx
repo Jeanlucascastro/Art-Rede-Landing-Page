@@ -62,7 +62,7 @@ function App() {
           <button className="icon-container-body" onClick={handleClickWhats}>
               <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
               <div className="icon">
-                <a href="#" className="whatsapp-link">
+                <a href="https://api.whatsapp.com/message/2WYOQ3NUJ7NVP1?autoload=1&app_absent=0" className="whatsapp-link">
                   <h2>WhatsApp</h2>
                 </a>
               </div>
@@ -70,7 +70,7 @@ function App() {
           <button className="icon-container-body" onClick={handleClickPhone}>
               <FaPhone  className='phone-icon'/>
               <div className="icon">
-                <a href="#" className="whatsapp-link">
+                <a href="tel:4333423783" className="whatsapp-link">
                   <h2>Ligação</h2>
                 </a>
               </div>
