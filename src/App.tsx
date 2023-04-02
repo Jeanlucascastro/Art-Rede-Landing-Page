@@ -9,13 +9,12 @@ import { icon } from '@fortawesome/fontawesome-svg-core';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { FaPhone } from 'react-icons/fa';
 
-
-const whatsappIcon = icon(faWhatsapp);
+const whatsappIcon = icon(faWhatsapp)
 const insta = icon(faInstagram)
 const face = icon(faFacebook)
-
-
+const numero = '4333423783'
 
 
 function App() {
@@ -30,6 +29,10 @@ function App() {
 
   function handleClickFace() {
     window.location.href = 'https://www.facebook.com/artrede2';
+  }
+
+  function handleClickPhone() {
+    window.location.href = 'tel:4333423783';
   }
 
   return (
@@ -51,20 +54,28 @@ function App() {
       </div>
       <div className="App-header">
         <div className='body'>
-        <p>Rede de Proteção para Apartamentos e Varais</p>
+        <p className='text-titulo'>Rede de Proteção para Apartamentos e Varais</p>
             <p className='text-container'>Art Rede é uma empresa especializada na instalação de redes de proteção e varais. Está no mercado há mais de duas décadas, trabalhando somente com redes de alta qualidade certificadas pelo Instituto Falcão Bahuer. Por isso, podemos oferecer um serviço de qualidade e garantia.</p>
-            <p>Ligue agora - (43) 3342-3783 </p>
+            <p className='text-titulo'>Faça já seu Orçamento - (43) 3342-3783 </p>
         </div>
         <div className='orcamento'>
-          <h1>Faça já seu Orçamento</h1>
+          {/* <h1>Faça já seu Orçamento</h1> */}
           <button className="icon-container-body" onClick={handleClickWhats}>
               <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
               <div className="icon">
                 <a className="whatsapp-link">
                   <h2>WhatsApp</h2>
                 </a>
-      </div>
-    </button>
+              </div>
+          </button>
+          <button className="icon-container-body" onClick={handleClickPhone}>
+              <FaPhone  className='phone-icon'/>
+              <div className="icon">
+                <a className="whatsapp-link">
+                  <h2>Ligação</h2>
+                </a>
+              </div>
+          </button>
         </div>
         <div className="container">
         <div className="imagem">
