@@ -62,17 +62,13 @@ function App() {
           <button className="icon-container-body" onClick={handleClickWhats}>
               <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
               <div className="icon">
-                <a href="https://api.whatsapp.com/message/2WYOQ3NUJ7NVP1?autoload=1&app_absent=0" className="whatsapp-link">
-                  <h2>WhatsApp</h2>
-                </a>
+                  <h2 className="whatsapp-link">WhatsApp</h2>
               </div>
           </button>
           <button className="icon-container-body" onClick={handleClickPhone}>
               <FaPhone  className='phone-icon'/>
               <div className="icon">
-                <a href="tel:4333423783" className="whatsapp-link">
-                  <h2>Ligação</h2>
-                </a>
+                  <h2 className="whatsapp-link">Ligação</h2>
               </div>
           </button>
         </div>
