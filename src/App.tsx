@@ -14,7 +14,6 @@ import { FaPhone } from 'react-icons/fa';
 const whatsappIcon = icon(faWhatsapp)
 const insta = icon(faInstagram)
 const face = icon(faFacebook)
-const numero = '4333423783'
 
 
 function App() {
@@ -63,7 +62,7 @@ function App() {
           <button className="icon-container-body" onClick={handleClickWhats}>
               <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
               <div className="icon">
-                <a className="whatsapp-link">
+                <a  className="whatsapp-link">
                   <h2>WhatsApp</h2>
                 </a>
               </div>
@@ -71,7 +70,7 @@ function App() {
           <button className="icon-container-body" onClick={handleClickPhone}>
               <FaPhone  className='phone-icon'/>
               <div className="icon">
-                <a className="whatsapp-link">
+                <a href="#" className="whatsapp-link">
                   <h2>Ligação</h2>
                 </a>
               </div>
