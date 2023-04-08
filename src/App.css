@@ -176,25 +176,38 @@
   }
 
   .text-titulo {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 
   .orcamento {
     font-size: 7px !important;
   }
 
-  .whatsapp-link {
+  /* .whatsapp-link {
     font-size: 7px;
-  }
+  } */
 
   .body {
     font-size: 10px;
+    height: 25vh;
   }
   .text-container {
-    font-size: 10px !important;
+    font-size: 17px !important;
   }
   .imagem {
     width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .body {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .body {
+    height: 30vh;
   }
 }
 
