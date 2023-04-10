@@ -19,7 +19,7 @@ const face = icon(faFacebook)
 function App() {
 
   function handleClickWhats() {
-    window.location.href = 'https://api.whatsapp.com/message/2WYOQ3NUJ7NVP1?autoload=1&app_absent=0';
+    window.location.href = 'https://api.whatsapp.com/send?phone=554399453545';
   }
 
   function handleClickInsta() {
