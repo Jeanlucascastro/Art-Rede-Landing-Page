@@ -53,27 +53,30 @@ function App() {
       </div>
       <div className="App-header">
         <div className='body'>
-        <p className='text-titulo'>Rede de Proteção para Apartamentos e Varais</p>
-            <p className='text-container'>Art Rede é uma empresa especializada na instalação de redes de proteção e varais. Está no mercado há mais de duas décadas, trabalhando somente com redes de alta qualidade certificadas pelo Instituto Falcão Bahuer. Por isso, podemos oferecer um serviço de qualidade e garantia.</p>
-            <p className='text-titulo'>Faça já seu Orçamento - (43) 3342-3783 </p>
-        </div>
-        <div className='orcamento'>
+            <p className='text-titulo'>Art Rede</p>
+            <p className='text-titulo' >Rede de Proteção para Apartamentos e Varais</p>
+            <p className='text-titulo'>Faça já seu Orçamento</p>
+            <div className="text-titulo texto">
+                <p className='text-container-texto'>Art Rede é uma empresa especializada na instalação de redes de proteção e varais. Está no mercado há mais de duas décadas, trabalhando somente com redes de alta qualidade certificadas pelo Instituto Falcão Bahuer. Por isso, podemos oferecer um serviço de qualidade e garantia.</p>
+              </div>
+              <div className='orcamento'>
           {/* <h1>Faça já seu Orçamento</h1> */}
           <button className="icon-container-body" onClick={handleClickWhats}>
               <FontAwesomeIcon icon={whatsappIcon}  className='whatsapp-icon'/>
               <div className="icon">
-                  <h2 className="whatsapp-link">WhatsApp</h2>
+                  <h2 className="whatsapp-link">(43) 9 9945-3545</h2>
               </div>
           </button>
           <button className="icon-container-body" onClick={handleClickPhone}>
               <FaPhone  className='phone-icon'/>
               <div className="icon">
-                  <h2 className="whatsapp-link">Ligação</h2>
+                  <h2 className="whatsapp-link">(43) 3342-3783</h2>
               </div>
           </button>
         </div>
+        </div>
         <div className="container">
-        <div className="imagem">
+              <div className="imagem">
                 <img src={rede}  alt="Imagem 2"/>
               </div>
               <div className="imagem">
